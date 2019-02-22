@@ -10,6 +10,13 @@ DEPENDENCIES:
   - OCMockito (~> 4.0)
   - Socket.IO-Client-Swift (~> 8.3.0)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - OCHamcrest
+    - OCMock
+    - OCMockito
+    - Socket.IO-Client-Swift
+
 SPEC CHECKSUMS:
   OCHamcrest: 363e1bf738c3e8a94abe7c2c415f70d671adde38
   OCMock: 35ae71d6a8fcc1b59434d561d1520b9dd4f15765
@@ -18,4 +25,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: f61612dfbda43db1cd764491aa9ebadb2f378c87
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.5.3
