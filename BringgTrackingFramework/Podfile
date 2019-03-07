@@ -7,13 +7,13 @@ use_frameworks!
 inhibit_all_warnings!
 
 def pods()
-    pod 'Socket.IO-Client-Swift', '~> 8.3.0'
+    pod 'Socket.IO-Client-Swift', '~> 12.1.2'
 end
 
 def testpods()
     pod 'OCMockito', '~> 4.0'
     pod 'OCMock', '~> 3.1'
-    pod 'Socket.IO-Client-Swift', '~> 8.3.0'
+    pod 'Socket.IO-Client-Swift', '~> 12.1.2'
 
 end
 

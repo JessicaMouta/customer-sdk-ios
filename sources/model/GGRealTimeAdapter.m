@@ -18,7 +18,7 @@
         return NO;
     }
     
-    return socketIO.status == SocketIOStatusConnected;
+    return socketIO.status == SocketIOClientStatusConnected;
 }
 
 + (BOOL)errorAck:(id)argsData error:(NSError **)error {
